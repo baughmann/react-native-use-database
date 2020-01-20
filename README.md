@@ -1,6 +1,4 @@
 # React Native useDatabase
-### A simple job-based asynchronous queue for `react` and `react-native`
-
 A wrapper around a React `state` and `AsyncStorage` that basically creates an in-memory database that stays synced with a collection in `AsyncStorage`.
 
 ### Setup
