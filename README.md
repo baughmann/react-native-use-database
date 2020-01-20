@@ -7,7 +7,7 @@ A wrapper around a React `state` and `AsyncStorage` that basically creates an in
 
 First, add it to your project as you normally would.
 
-`$ yarn add react-use-database`
+`$ yarn add react-native-use-database`
 
 Make sure to also add the peer dependencies: `@react-native-community/async-storage` and `uuid`:
 
@@ -15,7 +15,7 @@ Make sure to also add the peer dependencies: `@react-native-community/async-stor
 
 Finally, you can import it into your project.
 
-`import useDatabase from "react-use-database";`
+`import useDatabase from "react-native-use-database";`
 
 
 ### Example Useage
