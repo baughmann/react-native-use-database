@@ -13,15 +13,19 @@ Make sure to also add the peer dependencies: `@react-native-community/async-stor
 
 `$ yarn add @react-native-community/async-storage uuid`
 
+Finally, you can import it into your project.
+
 `import useDatabase from "react-use-database";`
 
 
+### Example Useage
+
+#### Creating the database
+
 Next, simply use the hook as so.
 
-`const Database = useDatabase<IMySomething>('my_somethings');`
+`const Database = useDatabase<IMyCustomInterface>('my_somethings');`
 
-
-### Example Useage
 
 #### Listing and finding items
 
