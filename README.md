@@ -3,9 +3,7 @@
 
 A wrapper around a React `state` and `AsyncStorage` that basically creates an in-memory database that stays synced with a collection in `AsyncStorage`.
 
-### Example Useage
-
-#### Setup
+### Setup
 
 First, add it to your project as you normally would.
 
@@ -18,6 +16,8 @@ Next, simply use the hook as so.
 
 `const Database = useDatabase<IMySomething>('my_somethings');`
 
+
+### Example Useage
 
 #### Listing and finding items
 
