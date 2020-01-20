@@ -9,6 +9,10 @@ First, add it to your project as you normally would.
 
 `$ yarn add react-use-database`
 
+Make sure to also add the peer dependencies: `@react-native-community/async-storage` and `uuid`:
+
+`$ yarn add @react-native-community/async-storage uuid`
+
 `import useDatabase from "react-use-database";`
 
 
