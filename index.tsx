@@ -3,6 +3,7 @@ import AsyncStorage from "@react-native-community/async-storage";
 import * as uuid from "uuid";
 import { useEffect, useState } from "react";
 
+
 /**
  * @description Uses AsyncStorage to create a "database". This database should be read into memory on every load in order to do somplex things like filtering and sorting.
  * @param {string} name The name of the database to create or "connect" to
