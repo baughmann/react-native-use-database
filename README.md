@@ -43,7 +43,7 @@ To update an item, simply call `await Database.update(someItem)`. The database w
 
 Removing an item is as easy as passing the ID of the item you wish to remove: `await Database.remove(someItemId)`.
 
-#### Replaceing the entire collection
+#### Replacing the entire collection
 
 If you're refreshing the database with a list you got from somewhere else, or if you're re-ordering the list, then you can overwrite the entire database by calling `await Database.overwrite(myNewArrayOfItems)`.
 
